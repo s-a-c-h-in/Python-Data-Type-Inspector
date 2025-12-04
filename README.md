@@ -23,8 +23,8 @@ A comprehensive, interactive tool for exploring and understanding Python's built
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/builtin-type-inspector.git
-cd builtin-type-inspector
+git clone https://github.com/s-a-c-h-in/Python-Data-Type-Inspector.git
+cd Python-Data-Type-Inspector
 ```
 
 No additional dependencies required - uses only Python standard library!
@@ -35,16 +35,16 @@ No additional dependencies required - uses only Python standard library!
 
 Run the inspector interactively:
 ```bash
-python builtin_type_inspector.py
+python Python-Data-Type-Inspector.py
 ```
 
 #### Command Line Mode
 
 Analyze a specific type directly:
 ```bash
-python builtin_type_inspector.py str
-python builtin_type_inspector.py list
-python builtin_type_inspector.py dict
+python Python-Data-Type-Inspector.py str
+python Python-Data-Type-Inspectorr.py list
+python Python-Data-Type-Inspector.py dict
 ```
 
 ## Supported Types
@@ -97,7 +97,7 @@ Output shows:
 ### Example 2: Interactive Exploration
 
 ```bash
-$ python builtin_type_inspector.py
+$ python Python-Data-Type-Inspector.py
 
 WHAT WOULD YOU LIKE TO DO?
   1. Analyze a built-in type
@@ -150,7 +150,7 @@ This tool is excellent for:
 ## Code Structure
 
 ```
-builtin_type_inspector.py
+Python-Data-Type-Inspector.py
 ├── BuiltinTypeInspector (main class)
 │   ├── __init__() - Initialize with built-in types
 │   ├── list_available_types() - Display all types
@@ -182,7 +182,3 @@ builtin_type_inspector.py
 ## Star History
 
 If you find this tool useful, please consider giving it a star 
-
----
-
-**Happy Exploring! 🐍✨**
